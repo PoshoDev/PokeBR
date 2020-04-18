@@ -28,8 +28,16 @@
     </sprites>
     <sprite>sprites\spr_grass</sprite>
     <sprite>sprites\spr_block</sprite>
-    <sprite>sprites\sprite11</sprite>
-    <sprite>sprites\sprite12</sprite>
+    <sprites name="Front">
+      <sprite>sprites\cacnea</sprite>
+      <sprite>sprites\kricketot</sprite>
+      <sprite>sprites\bidoof</sprite>
+    </sprites>
+    <sprites name="Back">
+      <sprite>sprites\cacnea_back</sprite>
+      <sprite>sprites\kricketot_back</sprite>
+      <sprite>sprites\bidoof_back</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_wall_test</background>
@@ -49,7 +57,11 @@
     <script>scripts\d3d_fog.gml</script>
     <script>scripts\scr_cointoss.gml</script>
     <script>scripts\view_set_resolution.gml</script>
+    <script>scripts\sprite_to_texture.gml</script>
+    <script>scripts\sprite_to_texture_OLD.gml</script>
+    <script>scripts\scr_dex.gml</script>
   </scripts>
+  <shaders name="shaders"/>
   <fonts name="fonts">
     <font>fonts\fnt_damage</font>
   </fonts>
@@ -59,6 +71,8 @@
     <object>objects\obj_wall_NEW</object>
     <object>objects\obj_block</object>
     <object>objects\obj_pokemon</object>
+    <object>objects\obj_pokemon_old</object>
+    <object>objects\obj_pokemon_internetload</object>
     <object>objects\obj_floor_NEW</object>
     <object>objects\obj_cam_ORIGINAL</object>
     <object>objects\obj_cam_old</object>

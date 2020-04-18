@@ -8,9 +8,9 @@
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
-  <bbox_right>0</bbox_right>
+  <bbox_right>51</bbox_right>
   <bbox_top>0</bbox_top>
-  <bbox_bottom>0</bbox_bottom>
+  <bbox_bottom>45</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -63,5 +63,6 @@
     <frame index="40">images\bidoof_40.png</frame>
     <frame index="41">images\bidoof_41.png</frame>
     <frame index="42">images\bidoof_42.png</frame>
+    <frame index="43">images\bidoof_43.png</frame>
   </frames>
 </sprite>
