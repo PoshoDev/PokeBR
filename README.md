@@ -1,8 +1,3 @@
-<video controls="controls">
-  <source type="video/mp4" src="https://i.imgur.com/fgksF3X.mp4"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+## **[Full Video Gallery](https://imgur.com/a/iOcQyjG)**
 
-
-
-## **[Full Gallery](https://i.imgur.com/fgksF3X.mp4)**
+![](https://raw.githubusercontent.com/PoshoDev/PokeBR/master/Webms/mpv_2020-04-18_23-07-26.png)
