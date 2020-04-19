@@ -68,8 +68,8 @@
             <string>height =            global.width//*(global.quality/2) //yes, width
 global.wall_size =  height/8
 
-room_height = height
-room_width = (global.width*224)/1024 //that weird number is the only way to make (1024/x) = 224 &lt;-- width
+//room_height = height
+//room_width = (global.width*224)/1024 //that weird number is the only way to make (1024/x) = 224 &lt;-- width
 
 
 </string>
@@ -122,7 +122,138 @@ room_width = (global.width*224)/1024 //that weird number is the only way to make
             <kind>1</kind>
             <string>randomize();
 
-i=0
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// SPAWN ITEMS
+
+for (i=0; i&lt;32; i++)
+    instance_create(irandom_range(0, room_width),
+                    irandom_range(0, room_height),
+                    obj_item);                    
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// TWITCH
+twitch_begin();
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>i=0
+
+global.font = font_add_sprite_ext(spr_font,"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZéÉ#-'!?():@_.% /",true,1);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// DEX LOADING &amp; ENUM
+
+enum dex
+{
+    id,
+    no,
+    name,
+    form,
+    type1,
+    type2,
+    bst,
+    hp,
+    atk,
+    def,
+    spatk,
+    spdef,
+    spd,
+    xp,
+    xp_type,
+    egg1,
+    egg2,
+    phase,
+    evo_lv,
+    evo1,
+    evo2,
+    evo3,
+    evo4,
+    evo5,
+    evo6,
+    evo7,
+    evo8
+}
+
+if (CONFIG == "mini")
+    global.dex_data = csv_load("dex_mini");
+else
+    global.dex_data = csv_load("dex");
+
+global.dex_min = real(global.dex_data[1, dex.id]);
+global.dex_max = real(global.dex_data[array_height_2d(global.dex_data)-1, dex.id]);
 </string>
           </argument>
         </arguments>
@@ -145,8 +276,33 @@ i=0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (i++ &lt; 8)
-    instance_create(250, 250, obj_pokemon)
+            <string>/// SPAWN POKEMON
+if (i++ &lt; 1)
+    instance_create(irandom_range(0, room_width), irandom_range(0, room_height), obj_pokemon)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="68">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// TWITCH CHAT ASYNC
+twitch_chat_async();
 </string>
           </argument>
         </arguments>

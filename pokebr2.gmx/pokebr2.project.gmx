@@ -2,27 +2,985 @@
 <assets>
   <Configs name="configs">
     <Config>Configs\Default</Config>
+    <Config>Configs\Mini</Config>
   </Configs>
-  <datafiles number="4" name="datafiles"/>
-  <NewExtensions/>
-  <sounds name="sound">
-    <sound>sound\sound0</sound>
-  </sounds>
+  <datafiles number="50" name="datafiles">
+    <datafiles number="50" name="Twitch">
+      <datafiles number="50" name="twitch_init">
+        <datafile>
+          <name>twitch_init.gml</name>
+          <exists>-1</exists>
+          <size>1046</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_init.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_init.yy</name>
+          <exists>-1</exists>
+          <size>183</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_init.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="twitch_log">
+        <datafile>
+          <name>twitch_log.gml</name>
+          <exists>-1</exists>
+          <size>469</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_log.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_log.yy</name>
+          <exists>-1</exists>
+          <size>182</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_log.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="twitch_parse_data">
+        <datafile>
+          <name>twitch_parse_data.gml</name>
+          <exists>-1</exists>
+          <size>911</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_parse_data.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_parse_data.yy</name>
+          <exists>-1</exists>
+          <size>189</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_parse_data.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="twitch_stream_async">
+        <datafile>
+          <name>twitch_stream_async.gml</name>
+          <exists>-1</exists>
+          <size>4457</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_stream_async.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_stream_async.yy</name>
+          <exists>-1</exists>
+          <size>191</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_stream_async.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="twitch_stream_find_value">
+        <datafile>
+          <name>twitch_stream_find_value.gml</name>
+          <exists>-1</exists>
+          <size>1063</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_stream_find_value.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_stream_find_value.yy</name>
+          <exists>-1</exists>
+          <size>196</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_stream_find_value.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="twitch_stream_get_info">
+        <datafile>
+          <name>twitch_stream_get_info.gml</name>
+          <exists>-1</exists>
+          <size>1230</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_stream_get_info.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_stream_get_info.yy</name>
+          <exists>-1</exists>
+          <size>194</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_stream_get_info.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="twitch_stream_get_thumbnail">
+        <datafile>
+          <name>twitch_stream_get_thumbnail.gml</name>
+          <exists>-1</exists>
+          <size>1411</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_stream_get_thumbnail.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_stream_get_thumbnail.yy</name>
+          <exists>-1</exists>
+          <size>199</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_stream_get_thumbnail.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="twitch_stream_remove">
+        <datafile>
+          <name>twitch_stream_remove.gml</name>
+          <exists>-1</exists>
+          <size>1586</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_stream_remove.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_stream_remove.yy</name>
+          <exists>-1</exists>
+          <size>192</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_stream_remove.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="twitch_update_info">
+        <datafile>
+          <name>twitch_update_info.gml</name>
+          <exists>-1</exists>
+          <size>877</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_update_info.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_update_info.yy</name>
+          <exists>-1</exists>
+          <size>190</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_update_info.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="@__global_object_depths">
+        <datafile>
+          <name>__global_object_depths.gml</name>
+          <exists>-1</exists>
+          <size>763</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>__global_object_depths.gml</filename>
+        </datafile>
+        <datafile>
+          <name>__global_object_depths.yy</name>
+          <exists>-1</exists>
+          <size>193</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>__global_object_depths.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="@__init_global">
+        <datafile>
+          <name>__init_global.gml</name>
+          <exists>-1</exists>
+          <size>170</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>__init_global.gml</filename>
+        </datafile>
+        <datafile>
+          <name>__init_global.yy</name>
+          <exists>-1</exists>
+          <size>184</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>__init_global.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="@__init_view">
+        <datafile>
+          <name>__init_view.gml</name>
+          <exists>-1</exists>
+          <size>165</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>__init_view.gml</filename>
+        </datafile>
+        <datafile>
+          <name>__init_view.yy</name>
+          <exists>-1</exists>
+          <size>182</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>__init_view.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="@__view_get">
+        <datafile>
+          <name>__view_get.gml</name>
+          <exists>-1</exists>
+          <size>1559</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>__view_get.gml</filename>
+        </datafile>
+        <datafile>
+          <name>__view_get.yy</name>
+          <exists>-1</exists>
+          <size>181</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>__view_get.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="@instance_create">
+        <datafile>
+          <name>instance_create.gml</name>
+          <exists>-1</exists>
+          <size>365</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>instance_create.gml</filename>
+        </datafile>
+        <datafile>
+          <name>instance_create.yy</name>
+          <exists>-1</exists>
+          <size>186</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>instance_create.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="@object_get_depth">
+        <datafile>
+          <name>object_get_depth.gml</name>
+          <exists>-1</exists>
+          <size>329</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>object_get_depth.gml</filename>
+        </datafile>
+        <datafile>
+          <name>object_get_depth.yy</name>
+          <exists>-1</exists>
+          <size>187</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>object_get_depth.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="macros">
+        <datafile>
+          <name>macros.gml</name>
+          <exists>-1</exists>
+          <size>0</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>macros.gml</filename>
+        </datafile>
+        <datafile>
+          <name>macros.yy</name>
+          <exists>-1</exists>
+          <size>178</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>macros.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="twitch_auto_update_info">
+        <datafile>
+          <name>twitch_auto_update_info.gml</name>
+          <exists>-1</exists>
+          <size>1479</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_auto_update_info.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_auto_update_info.yy</name>
+          <exists>-1</exists>
+          <size>195</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_auto_update_info.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="twitch_chat_async">
+        <datafile>
+          <name>twitch_chat_async.gml</name>
+          <exists>-1</exists>
+          <size>2923</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_chat_async.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_chat_async.yy</name>
+          <exists>-1</exists>
+          <size>189</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_chat_async.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="twitch_chat_connect">
+        <datafile>
+          <name>twitch_chat_connect.gml</name>
+          <exists>-1</exists>
+          <size>2625</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_chat_connect.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_chat_connect.yy</name>
+          <exists>-1</exists>
+          <size>191</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_chat_connect.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="twitch_chat_disconnect">
+        <datafile>
+          <name>twitch_chat_disconnect.gml</name>
+          <exists>-1</exists>
+          <size>462</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_chat_disconnect.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_chat_disconnect.yy</name>
+          <exists>-1</exists>
+          <size>194</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_chat_disconnect.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="twitch_chat_say">
+        <datafile>
+          <name>twitch_chat_say.gml</name>
+          <exists>-1</exists>
+          <size>1132</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_chat_say.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_chat_say.yy</name>
+          <exists>-1</exists>
+          <size>187</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_chat_say.yy</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="50" name="twitch_free">
+        <datafile>
+          <name>twitch_free.gml</name>
+          <exists>-1</exists>
+          <size>1515</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_free.gml</filename>
+        </datafile>
+        <datafile>
+          <name>twitch_free.yy</name>
+          <exists>-1</exists>
+          <size>183</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="Mini">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>twitch_free.yy</filename>
+        </datafile>
+      </datafiles>
+    </datafiles>
+    <datafile>
+      <name>dex.csv</name>
+      <exists>-1</exists>
+      <size>788304</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+        <Config name="Mini">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>dex.csv</filename>
+    </datafile>
+    <datafile>
+      <name>dex_mini.csv</name>
+      <exists>-1</exists>
+      <size>18468</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+        <Config name="Mini">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>dex_mini.csv</filename>
+    </datafile>
+  </datafiles>
+  <NewExtensions>
+    <extension index="0">extensions\CSV Manager</extension>
+  </NewExtensions>
+  <sounds name="sound"/>
   <sprites name="sprites">
-    <sprites name="Entities">
-      <sprites name="Character">
-        <sprite>sprites\spr_char_run</sprite>
-      </sprites>
-    </sprites>
     <sprites name="Others">
       <sprites name="Visualizers">
         <sprite>sprites\spr_vis_cam</sprite>
-        <sprite>sprites\spr_vis_char</sprite>
-        <sprite>sprites\spr_vis_enemy</sprite>
         <sprite>sprites\spr_vis_mechanic</sprite>
-        <sprite>sprites\spr_vis_wall</sprite>
-        <sprite>sprites\spr_vis_wall_x128</sprite>
-        <sprite>sprites\spr_vis_floor</sprite>
         <sprite>sprites\spr_vis_devmode</sprite>
       </sprites>
     </sprites>
@@ -38,89 +996,160 @@
       <sprite>sprites\kricketot_back</sprite>
       <sprite>sprites\bidoof_back</sprite>
     </sprites>
+    <sprite>sprites\spr_attacks</sprite>
+    <sprite>sprites\spr_redcup</sprite>
+    <sprite>sprites\spr_disco</sprite>
+    <sprite>sprites\spr_hitbox</sprite>
+    <sprites name="Items">
+      <sprite>sprites\spr_item_noone</sprite>
+      <sprite>sprites\spr_item_potion</sprite>
+      <sprite>sprites\spr_item_superpotion</sprite>
+      <sprite>sprites\spr_item_hyperpotion</sprite>
+      <sprite>sprites\spr_item_maxpotion</sprite>
+      <sprite>sprites\spr_item_fullrestore</sprite>
+      <sprite>sprites\spr_item_berry_oran</sprite>
+    </sprites>
+    <sprite>sprites\spr_font</sprite>
+    <sprite>sprites\spr_source</sprite>
+    <sprite>sprites\spr_source_3d</sprite>
+    <sprite>sprites\spr_lock</sprite>
+    <sprite>sprites\spr_part_heal</sprite>
+    <sprite>sprites\spr_part_evolve</sprite>
+    <sprite>sprites\spr_slot</sprite>
+    <sprite>sprites\spr_type</sprite>
+    <sprite>sprites\spr_floor_2</sprite>
+    <sprite>sprites\spr_wall_top</sprite>
+    <sprite>sprites\sprite33</sprite>
+    <sprite>sprites\spr_wall_orig</sprite>
+    <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_nothing</sprite>
+    <sprite>sprites\sprite36</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bck_wall_test</background>
-    <background>background\bck_floor_test</background>
-    <background>background\bck_tile_test</background>
+    <background>background\tex_square</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\sprite_tween_new.gml</script>
-    <script>scripts\sprite_tween.gml</script>
-    <script>scripts\sprite_bump.gml</script>
-    <script>scripts\sprite_bump_check.gml</script>
-    <script>scripts\enemy_spawn.gml</script>
-    <scripts name="Unused">
-      <script>scripts\sprite_tween_old.gml</script>
+    <scripts name="Calculations">
+      <script>scripts\type_get.gml</script>
+      <script>scripts\hp_bar_get.gml</script>
+      <script>scripts\hp_bar_get_self.gml</script>
+      <script>scripts\stat_set_hp.gml</script>
+      <script>scripts\stat_set_def.gml</script>
+      <script>scripts\stat_set_spatk.gml</script>
+      <script>scripts\stat_set_hp_lvlup.gml</script>
+      <script>scripts\stat_set_spd.gml</script>
+      <script>scripts\stat_set_spdef.gml</script>
+      <script>scripts\stat_set_atk.gml</script>
+      <script>scripts\calculate_damage.gml</script>
+      <script>scripts\item_get_sprite.gml</script>
+      <script>scripts\rand.gml</script>
+      <script>scripts\item_do_heal.gml</script>
+      <script>scripts\level_get_texutre.gml</script>
+      <script>scripts\move_get_speed.gml</script>
+      <script>scripts\particle_set_type.gml</script>
+      <script>scripts\chance.gml</script>
+      <script>scripts\draw_window_two.gml</script>
+      <script>scripts\orientation_get.gml</script>
     </scripts>
-    <script>scripts\d3d_fog.gml</script>
-    <script>scripts\scr_cointoss.gml</script>
-    <script>scripts\view_set_resolution.gml</script>
-    <script>scripts\sprite_to_texture.gml</script>
-    <script>scripts\sprite_to_texture_OLD.gml</script>
-    <script>scripts\scr_dex.gml</script>
+    <scripts name="Database Management">
+      <script>scripts\make_pokemon.gml</script>
+      <script>scripts\make_sprite.gml</script>
+      <script>scripts\scr_dex.gml</script>
+      <script>scripts\sprite_to_texture.gml</script>
+    </scripts>
+    <scripts name="Behavior">
+      <script>scripts\ai_explore.gml</script>
+      <script>scripts\ai_battle.gml</script>
+      <scripts name="Init">
+        <script>scripts\action_idle.gml</script>
+        <script>scripts\action_walk.gml</script>
+        <script>scripts\action_pickup.gml</script>
+        <script>scripts\action_useitem.gml</script>
+        <script>scripts\action_battle.gml</script>
+        <script>scripts\inter_attack.gml</script>
+        <script>scripts\actions_evolve.gml</script>
+      </scripts>
+      <scripts name="Doing">
+        <script>scripts\action_doing_walk.gml</script>
+        <script>scripts\action_doing_pickup.gml</script>
+        <script>scripts\action_doing_evolve.gml</script>
+      </scripts>
+    </scripts>
+    <scripts name="Extensions">
+      <scripts name="CSV Manager">
+        <script>scripts\trace.gml</script>
+        <script>scripts\csv_load.gml</script>
+        <script>scripts\csv_load_escape.gml</script>
+        <script>scripts\csv_save.gml</script>
+        <script>scripts\csv_save_escape.gml</script>
+        <script>scripts\array_draw_debug.gml</script>
+      </scripts>
+      <scripts name="Twitch API">
+        <script>scripts\twitch_log.gml</script>
+        <script>scripts\twitch_parse_data.gml</script>
+        <script>scripts\twitch_stream_async.gml</script>
+        <script>scripts\twitch_stream_find_value.gml</script>
+        <script>scripts\twitch_stream_get_info.gml</script>
+        <script>scripts\twitch_stream_get_thumbnail.gml</script>
+        <script>scripts\twitch_stream_remove.gml</script>
+        <script>scripts\twitch_update_info.gml</script>
+        <script>scripts\twitch_auto_update_info.gml</script>
+        <script>scripts\twitch_chat_async.gml</script>
+        <script>scripts\twitch_chat_connect.gml</script>
+        <script>scripts\twitch_chat_disconnect.gml</script>
+        <script>scripts\twitch_chat_say.gml</script>
+        <script>scripts\twitch_free.gml</script>
+        <script>scripts\twitch_init.gml</script>
+      </scripts>
+    </scripts>
+    <scripts name="Bases">
+      <scripts name="Rogue">
+        <script>scripts\sprite_tween_old.gml</script>
+        <script>scripts\d3d_fog.gml</script>
+        <script>scripts\scr_cointoss.gml</script>
+        <script>scripts\enemy_spawn.gml</script>
+        <script>scripts\sprite_bump_check.gml</script>
+        <script>scripts\sprite_bump.gml</script>
+        <script>scripts\sprite_tween.gml</script>
+        <script>scripts\sprite_tween_new.gml</script>
+        <script>scripts\view_set_resolution.gml</script>
+      </scripts>
+      <scripts name="Duck">
+        <scripts name="User Actions">
+          <script>scripts\twitch_begin.gml</script>
+          <script>scripts\ProcessCommands.gml</script>
+        </scripts>
+      </scripts>
+    </scripts>
+    <scripts name="Old">
+      <script>scripts\sprite_to_texture_OLD.gml</script>
+      <script>scripts\gx.gml</script>
+      <script>scripts\gy.gml</script>
+    </scripts>
+    <script>scripts\particle_get_type.gml</script>
   </scripts>
-  <shaders name="shaders"/>
   <fonts name="fonts">
     <font>fonts\fnt_damage</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_control</object>
     <object>objects\obj_cam</object>
-    <object>objects\obj_wall_NEW</object>
-    <object>objects\obj_block</object>
-    <object>objects\obj_pokemon</object>
-    <object>objects\obj_pokemon_old</object>
-    <object>objects\obj_pokemon_internetload</object>
-    <object>objects\obj_floor_NEW</object>
-    <object>objects\obj_cam_ORIGINAL</object>
-    <object>objects\obj_cam_old</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_wall_old</object>
-    <object>objects\obj_obs_tree</object>
     <object>objects\obj_floor</object>
-    <object>objects\obj_floor_old</object>
-    <object>objects\obj_char</object>
-    <object>objects\obj_char_old</object>
-    <object>objects\obj_enemy</object>
-    <object>objects\obj_enemy_burning</object>
-    <object>objects\obj_enemy_burning_bullet</object>
-    <object>objects\obj_enemy_burning_trap</object>
-    <object>objects\obj_char_bullet</object>
-    <object>objects\obj_enemy_trapfish</object>
-    <object>objects\obj_enemy_coming</object>
-    <object>objects\obj_text_dmg</object>
-    <object>objects\obj_test_tile</object>
-    <object>objects\object12</object>
-    <object>objects\object13</object>
-    <objects name="Others">
-      <objects name="Backups">
-        <object>objects\bck_obj_char</object>
-        <object>objects\bck_obj_wall</object>
-      </objects>
-    </objects>
-    <object>objects\obj_test_enemybullet</object>
-    <object>objects\par_enemybullet</object>
-    <object>objects\obj_enemy_burning_backup</object>
-    <object>objects\obj_test_samesprite</object>
-    <object>objects\object22</object>
-    <object>objects\obj_load_stage</object>
+    <object>objects\obj_floor_2</object>
+    <object>objects\obj_disco</object>
+    <object>objects\obj_block</object>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_redcup</object>
+    <object>objects\obj_item</object>
+    <object>objects\obj_particle</object>
+    <object>objects\obj_pokemon</object>
+    <object>objects\obj_attack</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room13</room>
-    <room>rooms\room_test_new</room>
-    <room>rooms\room_test</room>
-    <room>rooms\room_test_old_2</room>
-    <room>rooms\rom_test_7lane</room>
-    <room>rooms\room10</room>
-    <room>rooms\rom_test_7lane_nowalls</room>
-    <room>rooms\room7</room>
-    <room>rooms\room_test_old</room>
-    <room>rooms\room5</room>
-    <room>rooms\room4</room>
-    <room>rooms\room3</room>
     <room>rooms\room2</room>
+    <room>rooms\room3</room>
+    <room>rooms\rom_test</room>
     <room>rooms\room1</room>
   </rooms>
   <help>
